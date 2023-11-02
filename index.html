@@ -6,6 +6,7 @@
     <title>My portfolio | Dicky Juliansyah</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body id="home">
@@ -64,13 +65,13 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right">
             <p>
               Students are an integral part of a country's social and economic development. They are the generation that will shape the future. Their roles and responsibilities in exploring knowledge, overcoming social issues, and preparing
               themselves for the world of work are important aspects of their
             </p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-delay="200">
             <p>
               A trader is an individual who is actively involved in financial trading activities, such as shares, currencies, commodities, or other financial instruments. They aim to make profits by buying and selling financial assets in
               the short term or long term Trading is a practice that covers various types of financial markets
@@ -99,7 +100,7 @@
         </div>
         <div class="row">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in-up" data-aos-duration="1000">
               <img src="img/projects/dicky2.jpeg" class="card-img-top" alt="project dicky2" />
               <div class="card-body">
                 <i class="bi bi-instagram"></i>
@@ -108,7 +109,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200">
               <img src="img/projects/dicky3.jpeg" class="card-img-top" alt="project dicky3" />
               <div class="card-body">
                 <i class="bi bi-facebook"></i>
@@ -117,7 +118,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="300">
               <img src="img/projects/dicky4.jpeg" class="card-img-top" alt="project dicky4" />
               <div class="card-body">
                 <i class="bi bi-twitter-x"></i>
@@ -195,6 +196,13 @@
     <!--Akhir Footer-->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+        duration: 2000,
+      });
+    </script>
 
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbzTCv_ERm3a_LwjYGpxtGjfxsVkCUunywxDC1IubvlbxlpGd4hCNiI8XJa6cOiuviEY9Q/exec";
